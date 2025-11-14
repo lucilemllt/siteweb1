@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Chiens – Site Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur mon site consacré aux chiens 🐶</h1>
+</header>
+
+<section>
+    <div class="card">
+        <h2>Pourquoi les chiens sont extraordinaires</h2>
+        <p>
+            Les chiens sont des animaux loyaux, affectueux et intelligents. 
+            Ils accompagnent l'humain depuis des milliers d'années et jouent un rôle essentiel 
+            dans nos vies : compagnons, protecteurs, travailleurs ou simples amis.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Quelques races populaires</h2>
+        <ul>
+            <li>Berger Allemand</li>
+            <li>Golden Retriever</li>
+            <li>Labrador</li>
+            <li>Husky Sibérien</li>
+            <li>Chihuahua</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Les besoins essentiels d’un chien</h2>
+        <p>
+            Pour qu’un chien soit heureux, il a besoin de :
+        </p>
+        <ul>
+            <li>Beaucoup d’amour ❤️</li>
+            <li>De l’exercice quotidien</li>
+            <li>Une alimentation adaptée</li>
+            <li>Des visites régulières chez le vétérinaire</li>
+            <li>De la stimulation mentale et du jeu</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    © 2025 - Site dédié aux chiens | Hébergé sur GitHub Pages
+</footer>
+
+</body>
+</html>
